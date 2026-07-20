@@ -1,0 +1,70 @@
+# .project metadata for HwameiStor
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "hwameistor"
+name: "HwameiStor"
+description: "Hwameistor is an HA local storage system for cloud-native stateful workloads"
+type: "project"
+project_lead: "sun7927" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#hwameistor"
+    link: "https://cloud-native.slack.com/messages/hwameistor"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2023-06-22T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/29" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/hwameistor/hwameistor"
+
+website: "https://hwameistor.io/"
+
+artwork: "https://landscape.cncf.io/logos/hwameistor.svg"
+
+adopters:
+  path: "https://github.com/hwameistor/hwameistor/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "hwameistor/hwameistor"
+
+social:
+  twitter: "https://twitter.com/daocloud_io"
+
+security:
+  policy:
+    path: "https://github.com/hwameistor/hwameistor/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/hwameistor/hwameistor/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/hwameistor/hwameistor/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/hwameistor/hwameistor/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/hwameistor/hwameistor/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/hwameistor/hwameistor/blob/main/README.md"
+
+landscape:
+  category: "Runtime"
+  subcategory: "Cloud Native Storage"
+
+# CLOMonitor Score: 70/100
+# Documentation: 77 | License: 86 | Best Practices: 62 | Security: 32
