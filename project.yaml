@@ -24,7 +24,7 @@ repositories:
 
 website: "https://hwameistor.io/"
 
-artwork: "https://landscape.cncf.io/logos/hwameistor.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/hwameistor"
 
 adopters:
   path: "https://github.com/hwameistor/hwameistor/blob/main/ADOPTERS.md"
